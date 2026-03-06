@@ -345,9 +345,9 @@ export const PADDLES: Paddle[] = [
 const Navbar = ({ cartCount, user, onLogin, onLogout, cartAnimating }: { cartCount: number, user: any, onLogin: () => void, onLogout: () => void, cartAnimating: boolean }) => (
   <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="flex justify-between h-16 items-center">
+      <div className="flex justify-between h-28 items-center">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/images/luzz-play-logo.png" alt="Luzz Play" className="h-[60px] w-auto drop-shadow-sm" />
+          <img src="/images/luzz-play-logo.png" alt="Luzz Play" className="h-[100px] w-auto drop-shadow-sm" />
         </Link>
         <div className="flex items-center gap-4">
           <Link to="/cart" className="relative p-2 text-gray-600 hover:text-gray-900 transition-colors">
