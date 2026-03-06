@@ -49,9 +49,9 @@ async function startServer() {
   });
 
   // --- Image Matcher API ---
-  app.get("/api/unmapped-images", (req, res) => {
-    const fs = require('fs');
+  app.get("/api/unmapped-images", async (req, res) => {
     try {
+      const fs = await import('fs');
       const files = fs.readdirSync('./public/images').filter((f: string) =>
         f.match(/\.(jpg|jpeg|png|webp)$/i)
       );
@@ -61,13 +61,14 @@ async function startServer() {
     }
   });
 
-  app.post("/api/match-image", (req, res) => {
-    const fs = require('fs');
-    const path = require('path');
-    const { rawName, correctName } = req.body;
+  app.post("/api/match-image", async (req, res) => {
     try {
-      const oldPath = path.join(__dirname, 'public', 'images', rawName);
-      const newPath = path.join(__dirname, 'public', 'images', correctName);
+      const fs = await import('fs');
+      const path = await import('path');
+      const { rawName, correctName } = req.body;
+
+      const oldPath = path.join(process.cwd(), 'public', 'images', rawName);
+      const newPath = path.join(process.cwd(), 'public', 'images', correctName);
 
       if (fs.existsSync(oldPath)) {
         fs.renameSync(oldPath, newPath);
