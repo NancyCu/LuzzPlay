@@ -5,7 +5,7 @@ import Stripe from 'stripe';
 const stripeSecretKey = defineSecret('STRIPE_SECRET_KEY');
 
 export const createPaymentIntent = onRequest(
-    { secrets: [stripeSecretKey] },
+    { secrets: [stripeSecretKey], cors: true, invoker: 'public' },
     async (req: any, res: any) => {
         res.set('Access-Control-Allow-Origin', '*');
 

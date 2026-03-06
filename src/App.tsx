@@ -96,7 +96,7 @@ export const PADDLES: Paddle[] = [
     features: ['Custom Dragon Artwork', 'Raw Carbon Face', 'Premium Leather Grip'],
     color: 'from-yellow-600 to-black',
     icon: Zap,
-    imageUrl: '/images/golden-dragon.jpg',
+    imageUrl: '/images/golden-dragon-edition.jpg',
   },
   {
     id: 'obsidian-marble',
@@ -126,7 +126,7 @@ export const PADDLES: Paddle[] = [
     features: ['Minimalist Aesthetic', 'Soft Touch Face', 'Includes Free Edge Tape'],
     color: 'from-gray-300 to-gray-700',
     icon: Target,
-    imageUrl: '/images/luna-eclipse.jpg',
+    imageUrl: '/images/tornazo-angle.jpg',
   },
   {
     id: 'pro2-archer',
@@ -136,7 +136,7 @@ export const PADDLES: Paddle[] = [
     features: ['Pro-Certified Friction', 'Angular Sweet Spot', 'Aerodynamic Profile'],
     color: 'from-blue-400 to-cyan-500',
     icon: Zap,
-    imageUrl: '/images/pro2-archer.jpg',
+    imageUrl: '/images/pro2-saber-tech.jpg',
   },
   {
     id: 'neon-sunset-premium',
@@ -146,7 +146,7 @@ export const PADDLES: Paddle[] = [
     features: ['Upgraded Texture', 'Honeycomb Core', 'Gradient Edge Guard'],
     color: 'from-purple-500 to-pink-500',
     icon: Star,
-    imageUrl: '/images/neon-sunset-premium.jpg',
+    imageUrl: '/images/luzz-sunrise-angle.jpg',
   },
   {
     id: 'dragon-warrior',
@@ -156,7 +156,7 @@ export const PADDLES: Paddle[] = [
     features: ['Carbon Fiber T700', 'Kung Fu Panda Collab', 'Exclusive White Trim'],
     color: 'from-gray-900 to-gray-700',
     icon: Flame,
-    imageUrl: '/images/dragon-warrior.jpg',
+    imageUrl: '/images/kung-fu-panda-collab.jpg',
   },
   {
     id: 'luzz-classic-gold',
@@ -166,7 +166,7 @@ export const PADDLES: Paddle[] = [
     features: ['Matte Friction Face', 'Asymmetrical Gold Inlay', 'Precision Core'],
     color: 'from-yellow-600 to-black',
     icon: Star,
-    imageUrl: '/images/luzz-classic-gold.jpg',
+    imageUrl: '/images/golden-dragon-edition-angle.jpg',
   },
   {
     id: 'pro-2-power',
@@ -176,7 +176,7 @@ export const PADDLES: Paddle[] = [
     features: ['30% More Power', 'Advanced Honeycomb Core', 'Bold Blue Edge Guard'],
     color: 'from-blue-600 to-cyan-400',
     icon: Zap,
-    imageUrl: '/images/pro-2-power.jpg',
+    imageUrl: '/images/pro-cannon-tech.jpg',
   },
   {
     id: 'pro-blade-2-twilight',
@@ -186,7 +186,7 @@ export const PADDLES: Paddle[] = [
     features: ['Carbon Fiber T700', 'Twilight Fluid Guard', 'Elongated Sweet Spot'],
     color: 'from-blue-800 to-gray-900',
     icon: Target,
-    imageUrl: '/images/pro-blade-2-twilight.jpg',
+    imageUrl: '/images/pro-blade-2-fog.jpg',
   },
   {
     id: 'pro2-saber',
@@ -206,7 +206,7 @@ export const PADDLES: Paddle[] = [
     features: ['Stealth Colorway', 'Carbon Fiber T700', 'Tournament Certified'],
     color: 'from-gray-900 to-black',
     icon: Flame,
-    imageUrl: '/images/pro-blade-2-stealth.jpg',
+    imageUrl: '/images/pro-blade-2-angle.jpg',
   },
   {
     id: 'luzz-sunrise',
@@ -226,7 +226,7 @@ export const PADDLES: Paddle[] = [
     features: ['Regulation Size', 'Lockable Caster Wheels', 'Powder-Coated Steel'],
     color: 'from-gray-800 to-black',
     icon: Target,
-    imageUrl: '/images/luzz-pro-net.jpg',
+    imageUrl: '/images/champion-net.jpg',
   },
   {
     id: 'butterfly-dream',
@@ -246,7 +246,7 @@ export const PADDLES: Paddle[] = [
     features: ['PP-Poly Core', 'Angled Accent Guard', 'High Deflection'],
     color: 'from-blue-500 to-cyan-400',
     icon: Zap,
-    imageUrl: '/images/pro-4-inferno-angled.jpg',
+    imageUrl: '/images/pro-4-inferno-blue-angle.jpg',
   },
   {
     id: 'golden-dragon-classic',
@@ -256,7 +256,7 @@ export const PADDLES: Paddle[] = [
     features: ['Classic Perforated Grip', 'Custom Dragon Artwork', 'Raw Carbon Face'],
     color: 'from-yellow-600 to-black',
     icon: Star,
-    imageUrl: '/images/golden-dragon-classic.jpg',
+    imageUrl: '/images/-6bbb-4b5d-81c9-383b00ba5d49.jpg',
   },
   {
     id: 'kung-fu-panda-pro-cannon',
@@ -266,7 +266,7 @@ export const PADDLES: Paddle[] = [
     features: ['Exclusive DreamWorks Collab', 'Carbon Fiber T700', 'Explosive Core'],
     color: 'from-gray-700 to-black',
     icon: Flame,
-    imageUrl: '/images/kung-fu-panda-pro-cannon.jpg',
+    imageUrl: '/images/kung-fu-panda-collab-angle.jpg',
   },
   {
     id: 'luzz-pro-1',
@@ -276,7 +276,7 @@ export const PADDLES: Paddle[] = [
     features: ['Balanced Core', 'Classic All-Black Design', 'Beginner Friendly'],
     color: 'from-gray-900 to-black',
     icon: Target,
-    imageUrl: '/images/luzz-pro-1.jpg',
+    imageUrl: '/images/pro-cannon-face.jpg',
   },
   {
     id: 'obsidian-marble-classic',
@@ -286,7 +286,7 @@ export const PADDLES: Paddle[] = [
     features: ['Classic Leather Grip', 'Marble Fluid Artwork', 'Textured Face'],
     color: 'from-yellow-500 to-gray-900',
     icon: Star,
-    imageUrl: '/images/obsidian-marble-classic.jpg',
+    imageUrl: '/images/pro-cannon-angle.jpg',
   },
   {
     id: 'obsidian-marble-flat',
@@ -296,7 +296,7 @@ export const PADDLES: Paddle[] = [
     features: ['Flat Edge Guard', 'Marble Fluid Artwork', 'Textured Face'],
     color: 'from-yellow-400 to-black',
     icon: Zap,
-    imageUrl: '/images/obsidian-marble-flat.jpg',
+    imageUrl: '/images/kung-fu-panda-collab-tech.jpg',
   },
   {
     id: 'luzz-tote-bag',
@@ -306,7 +306,7 @@ export const PADDLES: Paddle[] = [
     features: ['Dedicated Paddle Pocket', 'Tan Leather Straps', 'Spacious Interior'],
     color: 'from-orange-200 to-orange-100',
     icon: Heart,
-    imageUrl: '/images/luzz-tote-bag.jpg',
+    imageUrl: '/images/luzz-covers-close.jpg',
   },
   {
     id: 'luna-eclipse-moonbeam',
@@ -316,7 +316,7 @@ export const PADDLES: Paddle[] = [
     features: ['Metallic Silver Finish', 'Soft Touch Face', 'Ergonomic Grip'],
     color: 'from-gray-300 to-slate-400',
     icon: Target,
-    imageUrl: '/images/luna-eclipse-moonbeam.jpg',
+    imageUrl: '/images/luzz-net-post.jpg',
   },
   {
     id: 'pro2-saber-anatomy',
@@ -326,7 +326,7 @@ export const PADDLES: Paddle[] = [
     features: ['Exposed Diagram Design', '8mm Honeycomb Core', '3K Carbon Protection'],
     color: 'from-pink-500 to-gray-800',
     icon: Zap,
-    imageUrl: '/images/pro2-saber-anatomy.jpg',
+    imageUrl: '/images/pro2-saber-grip.jpg',
   },
   {
     id: 'luzz-z-line-gold',
@@ -336,26 +336,36 @@ export const PADDLES: Paddle[] = [
     features: ['Asymmetrical Gold Z-Lines', 'High-Friction Matte Surface', 'Pro-Level Deflection'],
     color: 'from-yellow-500 to-black',
     icon: Star,
-    imageUrl: '/images/luzz-z-line-gold.jpg',
+    imageUrl: '/images/pickleball-net.jpg',
+  },
+  {
+    id: 'addie-love',
+    name: 'Addie Love',
+    price: 2.50,
+    description: 'Made with a lot of love.',
+    features: ['Soft Plush', 'Adorable Heart', 'Maximum Cuteness'],
+    color: 'from-pink-400 to-red-500',
+    icon: Heart,
+    imageUrl: '/images/addie_love.jpg',
   },
 ];
 
 // --- Components ---
 
 const Navbar = ({ cartCount, user, onLogin, onLogout, cartAnimating }: { cartCount: number, user: any, onLogin: () => void, onLogout: () => void, cartAnimating: boolean }) => (
-  <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+  <nav className="sticky top-0 z-50 bg-black/90 backdrop-blur-md border-b border-gray-800">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between h-28 items-center">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/images/luzz-play-logo.png" alt="Luzz Play" className="h-[100px] w-auto drop-shadow-sm" />
+          <img src="/images/luzz-play-logo.png" alt="Luzz Play" className="h-[100px] w-auto drop-shadow-sm brightness-200" />
         </Link>
         <div className="flex items-center gap-4">
-          <Link to="/cart" className="relative p-2 text-gray-600 hover:text-gray-900 transition-colors">
+          <Link to="/cart" className="relative p-2 text-gray-400 hover:text-white transition-colors">
             <motion.div animate={cartAnimating ? { scale: [1, 1.3, 1] } : {}} transition={{ duration: 0.3 }}>
               <ShoppingCart className="w-6 h-6" />
             </motion.div>
             {cartCount > 0 && (
-              <span className="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center transform translate-x-1 -translate-y-1">
+              <span className="absolute top-0 right-0 bg-lime-500 text-black text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center transform translate-x-1 -translate-y-1">
                 {cartCount}
               </span>
             )}
@@ -363,15 +373,15 @@ const Navbar = ({ cartCount, user, onLogin, onLogout, cartAnimating }: { cartCou
           {user ? (
             <div className="flex items-center gap-3">
               <div className="hidden sm:flex items-center gap-2">
-                <img src={user.photoURL || `https://ui-avatars.com/api/?name=${user.displayName}`} alt="Avatar" className="w-8 h-8 rounded-full" referrerPolicy="no-referrer" />
-                <span className="text-sm font-medium text-gray-700">{user.displayName?.split(' ')[0]}</span>
+                <img src={user.photoURL || `https://ui-avatars.com/api/?name=${user.displayName}`} alt="Avatar" className="w-8 h-8 rounded-full border border-gray-700" referrerPolicy="no-referrer" />
+                <span className="text-sm font-medium text-gray-300">{user.displayName?.split(' ')[0]}</span>
               </div>
-              <button onClick={onLogout} className="p-2 text-gray-500 hover:text-red-500 transition-colors" title="Log out">
+              <button onClick={onLogout} className="p-2 text-gray-400 hover:text-lime-500 transition-colors" title="Log out">
                 <LogOut className="w-5 h-5" />
               </button>
             </div>
           ) : (
-            <button onClick={onLogin} className="flex items-center gap-2 bg-gray-900 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors">
+            <button onClick={onLogin} className="flex items-center gap-2 bg-lime-500 text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-lime-400 transition-colors shadow-lg shadow-lime-500/20">
               <User className="w-4 h-4" />
               <span className="hidden sm:inline">Sign In</span>
             </button>
@@ -384,20 +394,20 @@ const Navbar = ({ cartCount, user, onLogin, onLogout, cartAnimating }: { cartCou
 
 const StoreFront = ({ addToCart }: { addToCart: (paddle: Paddle) => void }) => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-black">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-white">
-        <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-50 opacity-50" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24 relative">
+      <div className="relative overflow-hidden bg-black border-b border-gray-900">
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black to-black opacity-80" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-28 relative">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center max-w-3xl mx-auto"
+            className="text-center max-w-4xl mx-auto"
           >
-            <h1 className="font-display text-5xl md:text-7xl font-extrabold tracking-tight text-gray-900 mb-6">
-              Elevate Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Game.</span>
+            <h1 className="font-display text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6">
+              Elevate Your <span className="text-lime-500 text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-lime-600">Game.</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-10">
+            <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
               Premium pickleball paddles designed in California. Engineered for power, precision, and the perfect pop.
             </p>
           </motion.div>
@@ -405,50 +415,50 @@ const StoreFront = ({ addToCart }: { addToCart: (paddle: Paddle) => void }) => {
       </div>
 
       {/* Products Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 pb-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {PADDLES.map((paddle, index) => (
             <motion.div
               key={paddle.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group flex flex-col h-full overflow-hidden"
+              transition={{ delay: index * 0.05 }}
+              className="bg-gray-900 rounded-3xl shadow-2xl shadow-black/80 hover:shadow-lime-500/10 transition-all duration-300 border border-gray-800 hover:border-gray-700 group flex flex-col h-full overflow-hidden"
             >
-              <div className="relative h-56 overflow-hidden bg-gray-100">
+              <div className="relative h-64 overflow-hidden bg-black">
                 <img
                   src={paddle.imageUrl}
                   alt={paddle.name}
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out opacity-90 group-hover:opacity-100"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute top-4 left-4">
-                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${paddle.color} flex items-center justify-center text-white shadow-lg`}>
+                  <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${paddle.color} flex items-center justify-center text-white shadow-lg shadow-black/50 border border-white/10`}>
                     <paddle.icon className="w-6 h-6" />
                   </div>
                 </div>
               </div>
 
-              <div className="p-8 flex flex-col flex-grow">
-                <h3 className="font-display text-2xl font-bold text-gray-900 mb-2">{paddle.name}</h3>
-                <p className="text-gray-500 mb-6 flex-grow">{paddle.description}</p>
+              <div className="p-8 flex flex-col flex-grow relative">
+                <h3 className="font-display text-2xl font-bold text-white mb-3">{paddle.name}</h3>
+                <p className="text-gray-400 mb-6 flex-grow leading-relaxed">{paddle.description}</p>
 
-                <div className="space-y-3 mb-8">
+                <div className="space-y-3 mb-8 bg-black/40 p-5 rounded-2xl border border-gray-800/50">
                   {paddle.features.map((feature, i) => (
-                    <div key={i} className="flex items-center text-sm text-gray-600">
-                      <CheckCircle2 className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
+                    <div key={i} className="flex items-center text-sm text-gray-300">
+                      <CheckCircle2 className="w-4 h-4 text-lime-500 mr-3 flex-shrink-0" />
                       {feature}
                     </div>
                   ))}
                 </div>
 
-                <div className="flex items-center justify-between mt-auto pt-6 border-t border-gray-100">
-                  <span className="text-2xl font-bold text-gray-900">${paddle.price}</span>
+                <div className="flex items-center justify-between mt-auto pt-6 border-t border-gray-800">
+                  <span className="text-3xl font-bold text-white">${paddle.price}</span>
                   <button
                     onClick={() => addToCart(paddle)}
-                    className="bg-gray-900 text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition-colors flex items-center gap-2 active:scale-95"
+                    className="bg-lime-500 text-black px-6 py-3 rounded-full font-bold hover:bg-lime-400 transition-colors flex items-center gap-2 active:scale-95 shadow-lg shadow-lime-500/20"
                   >
-                    Add <ShoppingCart className="w-4 h-4" />
+                    Add <ShoppingCart className="w-4 h-4 font-bold" />
                   </button>
                 </div>
               </div>
@@ -465,22 +475,22 @@ const Cart = ({ cart, removeFromCart, user }: { cart: Paddle[], removeFromCart: 
   const total = cart.reduce((sum, item) => sum + item.price, 0);
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-black py-16">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="font-display text-3xl font-bold text-gray-900 mb-8">Your Cart</h2>
+        <h2 className="font-display text-4xl font-extrabold text-white mb-10 tracking-tight">Your Cart</h2>
 
         {cart.length === 0 ? (
-          <div className="bg-white rounded-3xl p-12 text-center shadow-sm border border-gray-100">
-            <ShoppingCart className="w-16 h-16 text-gray-300 mx-auto mb-4" />
-            <h3 className="text-xl font-medium text-gray-900 mb-2">Your cart is empty</h3>
-            <p className="text-gray-500 mb-8">Looks like you haven't added any paddles yet.</p>
-            <Link to="/" className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 transition-colors">
+          <div className="bg-gray-900 rounded-3xl p-16 text-center shadow-2xl shadow-black/50 border border-gray-800">
+            <ShoppingCart className="w-20 h-20 text-gray-700 mx-auto mb-6" />
+            <h3 className="text-2xl font-display font-bold text-white mb-3">Your cart is empty</h3>
+            <p className="text-gray-400 mb-10 text-lg">Looks like you haven't added any premium gear yet.</p>
+            <Link to="/" className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-bold rounded-full text-black bg-lime-500 hover:bg-lime-400 transition-colors shadow-lg shadow-lime-500/20">
               Continue Shopping
             </Link>
           </div>
         ) : (
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden">
-            <ul className="divide-y divide-gray-100">
+          <div className="bg-gray-900 rounded-3xl shadow-2xl shadow-black/80 border border-gray-800 overflow-hidden">
+            <ul className="divide-y divide-gray-800/50">
               <AnimatePresence>
                 {cart.map((item, index) => (
                   <motion.li
@@ -488,21 +498,21 @@ const Cart = ({ cart, removeFromCart, user }: { cart: Paddle[], removeFromCart: 
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: 'auto' }}
                     exit={{ opacity: 0, height: 0 }}
-                    className="p-6 flex items-center"
+                    className="p-6 sm:p-8 flex items-center"
                   >
-                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center text-white mr-4 flex-shrink-0`}>
-                      <item.icon className="w-6 h-6" />
+                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${item.color} flex items-center justify-center text-white mr-6 flex-shrink-0 shadow-inner border border-white/10`}>
+                      <item.icon className="w-8 h-8" />
                     </div>
                     <div className="flex-grow">
-                      <h4 className="font-display text-lg font-semibold text-gray-900">{item.name}</h4>
-                      <p className="text-sm text-gray-500">Premium Paddle</p>
+                      <h4 className="font-display text-xl font-bold text-white mb-1">{item.name}</h4>
+                      <p className="text-sm text-lime-500 font-medium">Premium Edition</p>
                     </div>
-                    <div className="text-right mr-6">
-                      <span className="text-lg font-bold text-gray-900">${item.price}</span>
+                    <div className="text-right mr-8">
+                      <span className="text-2xl font-bold text-white">${item.price}</span>
                     </div>
                     <button
                       onClick={() => removeFromCart(index)}
-                      className="text-gray-400 hover:text-red-500 transition-colors p-2"
+                      className="text-gray-500 hover:text-red-500 transition-colors p-3 hover:bg-red-500/10 rounded-full"
                     >
                       Remove
                     </button>
@@ -511,30 +521,30 @@ const Cart = ({ cart, removeFromCart, user }: { cart: Paddle[], removeFromCart: 
               </AnimatePresence>
             </ul>
 
-            <div className="bg-gray-50 p-6 sm:p-8 border-t border-gray-100">
-              <div className="flex justify-between text-base font-medium text-gray-900 mb-4">
+            <div className="bg-black/50 p-8 sm:p-10 border-t border-gray-800">
+              <div className="flex justify-between text-xl font-bold text-white mb-4">
                 <p>Subtotal</p>
                 <p>${total.toFixed(2)}</p>
               </div>
-              <p className="text-sm text-gray-500 mb-6">Shipping and taxes calculated at checkout.</p>
+              <p className="text-sm text-gray-400 mb-10">Shipping and taxes calculated at checkout.</p>
 
               {user ? (
                 <button
                   onClick={() => navigate('/checkout')}
-                  className="w-full flex items-center justify-center px-6 py-4 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-gray-900 hover:bg-gray-800 transition-colors"
+                  className="w-full flex items-center justify-center px-8 py-5 border border-transparent rounded-full shadow-lg shadow-lime-500/20 text-lg font-bold text-black bg-lime-500 hover:bg-lime-400 transition-colors"
                 >
-                  Proceed to Checkout <ChevronRight className="w-5 h-5 ml-2" />
+                  Proceed to Checkout <ChevronRight className="w-6 h-6 ml-2" />
                 </button>
               ) : (
-                <div className="text-center space-y-4">
-                  <p className="text-sm text-amber-600 bg-amber-50 p-3 rounded-lg border border-amber-100">
-                    Please sign in to complete your purchase.
+                <div className="text-center space-y-5 border-t border-gray-800 pt-8 mt-8">
+                  <p className="text-sm font-medium text-lime-400 bg-lime-900/20 p-4 rounded-xl border border-lime-500/20">
+                    Sign in to secure your gear and check out.
                   </p>
                   <button
                     onClick={signInWithGoogle}
-                    className="w-full flex items-center justify-center px-6 py-4 border border-gray-300 rounded-full shadow-sm text-base font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors"
+                    className="w-full flex items-center justify-center px-8 py-5 border border-gray-700 rounded-full shadow-lg text-lg font-bold text-white bg-gray-800 hover:bg-gray-700 transition-colors"
                   >
-                    <img src="https://www.google.com/favicon.ico" alt="Google" className="w-5 h-5 mr-2" />
+                    <img src="https://www.google.com/favicon.ico" alt="Google" className="w-5 h-5 mr-3" />
                     Sign in with Google
                   </button>
                 </div>
@@ -580,14 +590,14 @@ const CheckoutForm = ({ total, onComplete }: { total: number, onComplete: () => 
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      <PaymentElement />
-      {errorMessage && <div className="text-red-500 text-sm">{errorMessage}</div>}
+      <PaymentElement options={{ theme: 'night' }} />
+      {errorMessage && <div className="text-red-400 text-sm font-medium">{errorMessage}</div>}
       <button
         type="submit"
         disabled={!stripe || isProcessing}
-        className={`w-full flex justify-center py-4 px-4 border border-transparent rounded-full shadow-sm text-base font-medium text-white ${isProcessing || !stripe ? 'bg-indigo-400 cursor-not-allowed' : 'bg-indigo-600 hover:bg-indigo-700'} transition-colors`}
+        className={`w-full flex justify-center py-5 px-4 border border-transparent rounded-full shadow-lg text-lg font-bold text-black ${isProcessing || !stripe ? 'bg-gray-700 text-gray-400 cursor-not-allowed shadow-none' : 'bg-lime-500 hover:bg-lime-400 shadow-lime-500/20'} transition-all duration-200`}
       >
-        {isProcessing ? 'Processing...' : `Pay $${total.toFixed(2)}`}
+        {isProcessing ? 'Processing SECURE Payment...' : `Pay $${total.toFixed(2)}`}
       </button>
     </form>
   );
@@ -633,22 +643,22 @@ const Checkout = ({ cart, clearCart }: { cart: Paddle[], clearCart: () => void }
 
   if (isSuccess) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen bg-black flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          className="max-w-md w-full bg-white rounded-3xl shadow-xl p-8 text-center"
+          className="max-w-md w-full bg-gray-900 rounded-3xl shadow-2xl shadow-black p-10 text-center border border-gray-800"
         >
-          <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle2 className="w-10 h-10 text-green-500" />
+          <div className="w-24 h-24 bg-lime-500/20 rounded-full flex items-center justify-center mx-auto mb-8 border border-lime-500/30">
+            <CheckCircle2 className="w-12 h-12 text-lime-400" />
           </div>
-          <h2 className="font-display text-3xl font-extrabold text-gray-900 mb-4">Order Confirmed!</h2>
-          <p className="text-gray-500 mb-8">
-            Thank you for your purchase. Your Luzz paddles are getting ready to ship. We'll send you an email with tracking details soon.
+          <h2 className="font-display text-4xl font-extrabold text-white mb-4">Order Confirmed!</h2>
+          <p className="text-gray-400 mb-10 text-lg leading-relaxed">
+            Thank you for stepping onto the Neon Court. Your premium paddles are being prepped. We'll send tracking details soon.
           </p>
           <Link
             to="/"
-            className="w-full flex items-center justify-center px-6 py-3 border border-transparent rounded-full shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 transition-colors"
+            className="w-full flex items-center justify-center px-8 py-4 border border-transparent rounded-full shadow-lg shadow-lime-500/20 text-lg font-bold text-black bg-lime-500 hover:bg-lime-400 transition-colors"
           >
             Back to Store
           </Link>
@@ -658,63 +668,62 @@ const Checkout = ({ cart, clearCart }: { cart: Paddle[], clearCart: () => void }
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-black py-16">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden">
-          <div className="p-6 sm:p-8 border-b border-gray-100 bg-gray-900 text-white">
-            <h2 className="font-display text-2xl font-bold">Checkout</h2>
-            <p className="text-gray-400 mt-1">Complete your order of ${total.toFixed(2)}</p>
+        <div className="bg-gray-900 rounded-3xl shadow-2xl shadow-black/80 border border-gray-800 overflow-hidden">
+          <div className="p-8 sm:p-10 border-b border-gray-800 bg-black/50">
+            <h2 className="font-display text-3xl font-extrabold text-white">Secure Checkout</h2>
+            <p className="text-gray-400 mt-2 text-lg">Complete your order of <span className="text-white font-bold">${total.toFixed(2)}</span></p>
           </div>
 
-          <div className="p-6 sm:p-8 space-y-6">
+          <div className="p-8 sm:p-10 space-y-8">
             <div>
-              <h3 className="font-display text-lg font-medium text-gray-900 mb-4">Shipping Information</h3>
+              <h3 className="font-display text-xl font-bold text-white mb-6">Shipping Information</h3>
               <div className="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-2">
                 <div className="sm:col-span-2">
-                  <label htmlFor="address" className="block text-sm font-medium text-gray-700">Address</label>
+                  <label htmlFor="address" className="block text-sm font-medium text-gray-400 mb-2">Address</label>
                   <div className="mt-1">
-                    <input type="text" id="address" required className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md p-3 border" placeholder="123 Pickleball Lane" />
+                    <input type="text" id="address" required className="bg-black text-white focus:ring-lime-500 focus:border-lime-500 block w-full sm:text-base border-gray-700 rounded-xl p-4 border transition-colors outline-none" placeholder="123 Neon Court Lane" />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="city" className="block text-sm font-medium text-gray-700">City</label>
+                  <label htmlFor="city" className="block text-sm font-medium text-gray-400 mb-2">City</label>
                   <div className="mt-1">
-                    <input type="text" id="city" required className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md p-3 border" placeholder="San Diego" />
+                    <input type="text" id="city" required className="bg-black text-white focus:ring-lime-500 focus:border-lime-500 block w-full sm:text-base border-gray-700 rounded-xl p-4 border transition-colors outline-none" placeholder="Los Angeles" />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="zip" className="block text-sm font-medium text-gray-700">ZIP / Postal code</label>
+                  <label htmlFor="zip" className="block text-sm font-medium text-gray-400 mb-2">ZIP / Postal code</label>
                   <div className="mt-1">
-                    <input type="text" id="zip" required className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md p-3 border" placeholder="92101" />
+                    <input type="text" id="zip" required className="bg-black text-white focus:ring-lime-500 focus:border-lime-500 block w-full sm:text-base border-gray-700 rounded-xl p-4 border transition-colors outline-none" placeholder="90210" />
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="pt-6 border-t border-gray-100">
-              <h3 className="font-display text-lg font-medium text-gray-900 mb-4">Payment Details</h3>
+            <div className="pt-8 border-t border-gray-800">
+              <h3 className="font-display text-xl font-bold text-white mb-6">Payment Details</h3>
               {!stripePromise && (
-                <div className="bg-amber-50 p-4 rounded-xl border border-amber-200 mb-4 text-amber-700 text-sm">
+                <div className="bg-amber-900/20 p-5 rounded-xl border border-amber-500/30 mb-6 text-amber-200 text-sm">
                   Stripe is not configured. Please add VITE_STRIPE_PUBLISHABLE_KEY and STRIPE_SECRET_KEY to your environment variables.
                 </div>
               )}
               {backendError && (
-                <div className="bg-red-50 p-4 rounded-xl border border-red-200 mb-4 text-red-700 text-sm">
-                  <p className="font-bold mb-1">Payment Initialization Failed</p>
+                <div className="bg-red-900/20 p-5 rounded-xl border border-red-500/30 mb-6 text-red-300 text-sm">
+                  <p className="font-bold mb-2">Payment Initialization Failed</p>
                   <p>{backendError}</p>
-                  <p className="mt-2 text-xs">If you are the developer, please ensure STRIPE_SECRET_KEY is set in the AI Studio Secrets panel.</p>
                 </div>
               )}
               {clientSecret && stripePromise ? (
-                <Elements options={{ clientSecret, appearance: { theme: 'stripe' } }} stripe={stripePromise}>
+                <Elements options={{ clientSecret, appearance: { theme: 'night', variables: { colorPrimary: '#84cc16', colorBackground: '#000000', colorText: '#ffffff', colorDanger: '#ef4444', fontFamily: 'inherit' } } }} stripe={stripePromise}>
                   <CheckoutForm total={total} onComplete={() => {
                     setIsSuccess(true);
                     clearCart();
                   }} />
                 </Elements>
               ) : stripePromise && !backendError ? (
-                <div className="flex justify-center p-8">
-                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
+                <div className="flex justify-center p-12">
+                  <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-lime-500"></div>
                 </div>
               ) : null}
             </div>
@@ -728,10 +737,25 @@ const Checkout = ({ cart, clearCart }: { cart: Paddle[], clearCart: () => void }
 // --- Main App ---
 
 export default function App() {
-  const [cart, setCart] = useState<Paddle[]>([]);
+  // Safe localStorage initialization
+  const [cart, setCart] = useState<Paddle[]>(() => {
+    try {
+      const saved = window.localStorage.getItem('neon_court_cart');
+      return saved ? JSON.parse(saved) : [];
+    } catch (e) {
+      console.error("Failed to load cart from localStorage", e);
+      return [];
+    }
+  });
+
   const [user, setUser] = useState<any>(null);
   const [toast, setToast] = useState<string | null>(null);
   const [cartAnimating, setCartAnimating] = useState(false);
+
+  // Sync cart to localStorage whenever it changes
+  useEffect(() => {
+    window.localStorage.setItem('neon_court_cart', JSON.stringify(cart));
+  }, [cart]);
 
   useEffect(() => {
     if (auth) {
@@ -768,7 +792,7 @@ export default function App() {
 
   return (
     <Router>
-      <div className="min-h-screen flex flex-col font-sans relative">
+      <div className="min-h-screen bg-black flex flex-col font-sans relative">
         <Navbar cartCount={cart.length} user={user} onLogin={handleLogin} onLogout={logOut} cartAnimating={cartAnimating} />
         <main className="flex-grow">
           <Routes>
@@ -778,9 +802,12 @@ export default function App() {
             <Route path="/checkout" element={<Checkout cart={cart} clearCart={clearCart} />} />
           </Routes>
         </main>
-        <footer className="bg-white border-t border-gray-100 py-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Luzz Play Pickleball. All rights reserved.</p>
-          <p className="mt-2">Designed in California.</p>
+        <footer className="bg-black border-t border-gray-900 py-12 text-center text-gray-500 text-sm">
+          <div className="inline-block px-4 py-1 border border-lime-500/20 rounded-full text-lime-500 text-xs font-bold mb-4 bg-lime-500/10">
+            NEON COURT EXCLUSIVE
+          </div>
+          <p>&copy; {new Date().getFullYear()} Neon Court Pickleball. Premium Gear Only.</p>
+          <p className="mt-2 text-gray-600">Designed in California.</p>
         </footer>
 
         <AIAssistant />
@@ -791,9 +818,9 @@ export default function App() {
               initial={{ opacity: 0, y: 50, x: '-50%' }}
               animate={{ opacity: 1, y: 0, x: '-50%' }}
               exit={{ opacity: 0, y: 50, x: '-50%' }}
-              className="fixed bottom-6 left-1/2 bg-gray-900 text-white px-6 py-3 rounded-full shadow-2xl z-50 flex items-center gap-3 font-medium"
+              className="fixed bottom-8 left-1/2 bg-gray-800 text-white px-8 py-4 rounded-full shadow-2xl z-50 flex items-center gap-3 font-bold border border-gray-700"
             >
-              <CheckCircle2 className="w-5 h-5 text-green-400" />
+              <CheckCircle2 className="w-5 h-5 text-lime-400" />
               {toast}
             </motion.div>
           )}

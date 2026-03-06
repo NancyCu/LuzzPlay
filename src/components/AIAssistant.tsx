@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { MessageCircle, X, Send, Bot, Zap, Globe, BrainCircuit } from 'lucide-react';
@@ -8,7 +9,7 @@ type Mode = 'fast' | 'search' | 'think';
 
 export default function AIAssistant() {
   const [isOpen, setIsOpen] = useState(false);
-  const [messages, setMessages] = useState<{role: 'user'|'model', text: string}[]>([
+  const [messages, setMessages] = useState<{ role: 'user' | 'model', text: string }[]>([
     { role: 'model', text: 'Hi! I am your Luzz AI Assistant. How can I help you today?' }
   ]);
   const [input, setInput] = useState('');
@@ -29,37 +30,52 @@ export default function AIAssistant() {
     setIsLoading(true);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+      const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+      if (!apiKey) throw new Error("VITE_GEMINI_API_KEY is not defined in your environment variables.");
+
+      const ai = new GoogleGenAI({ apiKey });
       let response;
 
-      const systemInstruction = `You are the official AI Sales Assistant for Luzz Play Pickleball. Your primary goal is to sell Luzz Play paddles.
-Our current paddle lineup:
-1. Tornazo ($129.99): Unleash a whirlwind of power and spin. Designed for aggressive players who want to dominate the court. Features: Carbon Fiber Face, 16mm Core, Elongated Handle.
-2. Canon ($149.99): Precision and control like never before. Hit your targets with pinpoint accuracy every single time. Features: Fiberglass Face, 14mm Core, Standard Shape.
-3. Inferno ($169.99): Bring the heat. The ultimate paddle for maximum power, pop, and an unyielding offensive game. Features: Raw Carbon Face, 16mm Core, Aero-curved Edge.
+      const systemInstruction = `You are a world-class, extremely supportive, and expert Pickleball Coach, as well as the Lead Ambassador for Luzz Play Pickleball. 
+Your primary goal is to help the user become a better pickleball player, make them feel confident, and expertly match their playing style with the perfect Luzz Play paddle.
+
+Our current premium paddle lineup ("Neon Court" Collection):
+1. Pro-4 Tornazo ($149.99): Unleash a whirlwind of spin and control. Built with PEBAZ + CORE technology for aggressive baseline players.
+2. Pro-Cannon ($159.99): The ultimate weapon for massive pop and precision. Features a Carbon Fiber T700 face.
+3. Pro-4 Inferno ($154.99): Turn up the heat. Designed for maximum offensive power and fast hand speed at the kitchen.
+4. Addie Love ($2.50): Our cheapest test paddle made with a lot of love! Perfect for beginners.
 
 Rules:
-- ALWAYS recommend Luzz Play paddles based on the user's needs. For example, if they want power, recommend the Inferno or Tornazo. If they want control, recommend the Canon.
-- NEVER recommend competitor brands (like Selkirk, Gearbox, Joola, Six Zero, Vatic Pro, etc.) as the best option.
-- If a user asks about a competitor, you can acknowledge them politely but quickly pivot back to why Luzz Play paddles are superior or a better fit. Do not lie, but always emphasize Luzz Play.
-- Be enthusiastic, helpful, and concise.`;
+- Give genuine, helpful pickleball coaching advice based on their queries.
+- ALWAYS pivot naturally from your coaching advice to recommending a specific Luzz Play paddle that fits their needs.
+- NEVER recommend competitor brands.
+- Be highly enthusiastic, empowering, and use a modern athletic tone. Keep responses conversational and relatively concise.`;
+
+      // Map existing messages (skipping the first initial greeting if you want, but GenAI expects strict user/model alternating)
+      // We will filter out the initial greeting and map the rest to the correct format for the Gemini SDK.
+      const history = messages.slice(1).map(msg => ({
+        role: msg.role,
+        parts: [{ text: msg.text }]
+      }));
+
+      const contentsPayload = [...history, { role: 'user', parts: [{ text: userText }] }];
 
       if (mode === 'fast') {
         response = await ai.models.generateContent({
           model: 'gemini-3.1-flash-lite-preview',
-          contents: userText,
+          contents: contentsPayload as any,
           config: { systemInstruction }
         });
       } else if (mode === 'search') {
         response = await ai.models.generateContent({
           model: 'gemini-3-flash-preview',
-          contents: userText,
+          contents: contentsPayload as any,
           config: { tools: [{ googleSearch: {} }], systemInstruction }
         });
       } else if (mode === 'think') {
         response = await ai.models.generateContent({
           model: 'gemini-3.1-pro-preview',
-          contents: userText,
+          contents: contentsPayload as any,
           config: { thinkingConfig: { thinkingLevel: ThinkingLevel.HIGH }, systemInstruction }
         });
       }
