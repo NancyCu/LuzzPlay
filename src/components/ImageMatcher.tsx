@@ -55,7 +55,7 @@ export default function ImageMatcher() {
     return (
         <div className="max-w-7xl mx-auto p-6 space-y-8">
             <div className="bg-indigo-600 text-white p-8 rounded-2xl shadow-lg">
-                <h1 className="text-3xl font-display font-bold mb-4">Luzz Auto Matcher</h1>
+                <h1 className="text-3xl font-display font-bold mb-4">LuzzPlay Auto Matcher</h1>
                 <p className="text-indigo-100">
                     Click an uploaded raw image on the left, then click the correct product name on the right to instantly pair them bridging the gap without files renaming.
                 </p>

@@ -52,18 +52,18 @@ export const PADDLES: Paddle[] = [
     id: 'pro-blade-2',
     name: 'Pro-Blade 2',
     price: 169.99,
-    description: 'Tournament-ready performance. Luzz UPA approved with Carbon Fiber T700 for aggressive drives and blocks.',
-    features: ['Carbon Fiber T700', 'Luzz UPA Approved', 'Neon Blue Edge Guard'],
+    description: 'Tournament-ready performance. LuzzPlay UPA approved with Carbon Fiber T700 for aggressive drives and blocks.',
+    features: ['Carbon Fiber T700', 'LuzzPlay UPA Approved', 'Neon Blue Edge Guard'],
     color: 'from-blue-600 to-cyan-500',
     icon: Flame,
     imageUrl: '/images/pro-blade-2.jpg',
   },
   {
     id: 'luzz-covers',
-    name: 'Luzz Paddle Covers',
+    name: 'LuzzPlay Paddle Covers',
     price: 24.99,
-    description: 'Protect your investment with these premium, form-fitting neoprene Luzz paddle covers. Includes a 2-pack.',
-    features: ['Premium Neoprene', 'Zipper Closure', 'Fits All Luzz Paddles'],
+    description: 'Protect your investment with these premium, form-fitting neoprene LuzzPlay paddle covers. Includes a 2-pack.',
+    features: ['Premium Neoprene', 'Zipper Closure', 'Fits All LuzzPlay Paddles'],
     color: 'from-gray-800 to-gray-600',
     icon: Star,
     imageUrl: '/images/luzz-covers.jpg',
@@ -122,7 +122,7 @@ export const PADDLES: Paddle[] = [
     id: 'luna-eclipse',
     name: 'Luna Eclipse',
     price: 159.99,
-    description: 'Master the soft game. The Luna Eclipse features a minimalist circular gradient design and comes with free Luzz edge tape to keep your paddle pristine.',
+    description: 'Master the soft game. The Luna Eclipse features a minimalist circular gradient design and comes with free LuzzPlay edge tape to keep your paddle pristine.',
     features: ['Minimalist Aesthetic', 'Soft Touch Face', 'Includes Free Edge Tape'],
     color: 'from-gray-300 to-gray-700',
     icon: Target,
@@ -160,9 +160,9 @@ export const PADDLES: Paddle[] = [
   },
   {
     id: 'luzz-classic-gold',
-    name: 'Luzz Classic Gold',
+    name: 'LuzzPlay Classic Gold',
     price: 189.99,
-    description: 'Elegance on the court. The Luzz Classic Gold features a striking asymmetrical gold line design on a matte black finish, engineered for ultimate spin control.',
+    description: 'Elegance on the court. The LuzzPlay Classic Gold features a striking asymmetrical gold line design on a matte black finish, engineered for ultimate spin control.',
     features: ['Matte Friction Face', 'Asymmetrical Gold Inlay', 'Precision Core'],
     color: 'from-yellow-600 to-black',
     icon: Star,
@@ -210,9 +210,9 @@ export const PADDLES: Paddle[] = [
   },
   {
     id: 'luzz-sunrise',
-    name: 'Luzz Sunrise',
+    name: 'LuzzPlay Sunrise',
     price: 164.99,
-    description: 'Bring the dawn to the court. The Luzz Sunrise features a breathtaking painted landscape of a sunrise over the mountains, built on a responsive fiberglass face.',
+    description: 'Bring the dawn to the court. The LuzzPlay Sunrise features a breathtaking painted landscape of a sunrise over the mountains, built on a responsive fiberglass face.',
     features: ['Painted Sunrise Artwork', 'Fiberglass Face', 'Comfort Grip'],
     color: 'from-orange-500 to-yellow-400',
     icon: Flame,
@@ -220,9 +220,9 @@ export const PADDLES: Paddle[] = [
   },
   {
     id: 'luzz-pro-net',
-    name: 'Luzz Pro Tournament Net',
+    name: 'LuzzPlay Pro Tournament Net',
     price: 249.99,
-    description: 'Set up court anywhere. The Luzz Pro Tournament Net is regulation size, features lockable caster wheels, and boasts a heavy-duty powder-coated steel frame.',
+    description: 'Set up court anywhere. The LuzzPlay Pro Tournament Net is regulation size, features lockable caster wheels, and boasts a heavy-duty powder-coated steel frame.',
     features: ['Regulation Size', 'Lockable Caster Wheels', 'Powder-Coated Steel'],
     color: 'from-gray-800 to-black',
     icon: Target,
@@ -252,7 +252,7 @@ export const PADDLES: Paddle[] = [
     id: 'golden-dragon-classic',
     name: 'Golden Dragon (Classic Grip)',
     price: 199.99,
-    description: 'The legendary Golden Dragon artwork, now offered with our classic perforated Luzz grip for players who prefer traditional handling.',
+    description: 'The legendary Golden Dragon artwork, now offered with our classic perforated LuzzPlay grip for players who prefer traditional handling.',
     features: ['Classic Perforated Grip', 'Custom Dragon Artwork', 'Raw Carbon Face'],
     color: 'from-yellow-600 to-black',
     icon: Star,
@@ -270,9 +270,9 @@ export const PADDLES: Paddle[] = [
   },
   {
     id: 'luzz-pro-1',
-    name: 'Luzz Pro 1',
+    name: 'LuzzPlay Pro 1',
     price: 129.99,
-    description: 'The paddle that started it all. The Luzz Pro 1 offers a balanced blend of control and power with a classic, understated all-black design.',
+    description: 'The paddle that started it all. The LuzzPlay Pro 1 offers a balanced blend of control and power with a classic, understated all-black design.',
     features: ['Balanced Core', 'Classic All-Black Design', 'Beginner Friendly'],
     color: 'from-gray-900 to-black',
     icon: Target,
@@ -300,7 +300,7 @@ export const PADDLES: Paddle[] = [
   },
   {
     id: 'luzz-tote-bag',
-    name: 'Luzz Pickleball Tote Bag',
+    name: 'LuzzPlay Pickleball Tote Bag',
     price: 54.99,
     description: 'Arrive at the courts in style. This premium cream tote bag features dedicated exterior pockets for your paddle and balls, with luxurious tan leather straps.',
     features: ['Dedicated Paddle Pocket', 'Tan Leather Straps', 'Spacious Interior'],
@@ -330,7 +330,7 @@ export const PADDLES: Paddle[] = [
   },
   {
     id: 'luzz-z-line-gold',
-    name: 'Luzz Z-Line Gold',
+    name: 'LuzzPlay Z-Line Gold',
     price: 184.99,
     description: 'Precision engineering meets luxury design. The Z-Line Gold features sharp, asymmetrical gold vector lines on a high-friction matte black surface.',
     features: ['Asymmetrical Gold Z-Lines', 'High-Friction Matte Surface', 'Pro-Level Deflection'],
@@ -357,7 +357,7 @@ const Navbar = ({ cartCount, user, onLogin, onLogout, cartAnimating }: { cartCou
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between h-28 items-center">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/images/luzz-play-logo.png" alt="Luzz Play" className="h-[100px] w-auto drop-shadow-sm brightness-200" />
+          <img src="/images/luzz-play-logo.png" alt="LuzzPlay" className="h-[100px] w-auto drop-shadow-sm brightness-200" />
         </Link>
         <div className="flex items-center gap-4">
           <Link to="/cart" className="relative p-2 text-gray-400 hover:text-white transition-colors">

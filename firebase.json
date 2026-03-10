@@ -17,6 +17,7 @@
     }
   ],
   "hosting": {
+    "target": "luzzplay",
     "public": "dist",
     "ignore": [
       "firebase.json",

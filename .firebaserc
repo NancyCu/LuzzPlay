@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "nguyen-superbowl-squares"
-  }
+  },
+  "targets": {
+    "nguyen-superbowl-squares": {
+      "hosting": {
+        "luzzplay": [
+          "luzzplay"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

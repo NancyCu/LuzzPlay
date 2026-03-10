@@ -10,7 +10,7 @@ type Mode = 'fast' | 'search' | 'think';
 export default function AIAssistant() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{ role: 'user' | 'model', text: string }[]>([
-    { role: 'model', text: 'Hi! I am your Luzz AI Assistant. How can I help you today?' }
+    { role: 'model', text: 'Hi! I am your LuzzPlay AI Assistant. How can I help you today?' }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -36,8 +36,8 @@ export default function AIAssistant() {
       const ai = new GoogleGenAI({ apiKey });
       let response;
 
-      const systemInstruction = `You are a world-class, extremely supportive, and expert Pickleball Coach, as well as the Lead Ambassador for Luzz Play Pickleball. 
-Your primary goal is to help the user become a better pickleball player, make them feel confident, and expertly match their playing style with the perfect Luzz Play paddle.
+      const systemInstruction = `You are a world-class, extremely supportive, and expert Pickleball Coach, as well as the Lead Ambassador for LuzzPlay Pickleball. 
+Your primary goal is to help the user become a better pickleball player, make them feel confident, and expertly match their playing style with the perfect LuzzPlay paddle.
 
 Our current premium paddle lineup ("Neon Court" Collection):
 1. Pro-4 Tornazo ($149.99): Unleash a whirlwind of spin and control. Built with PEBAZ + CORE technology for aggressive baseline players.
@@ -47,7 +47,7 @@ Our current premium paddle lineup ("Neon Court" Collection):
 
 Rules:
 - Give genuine, helpful pickleball coaching advice based on their queries.
-- ALWAYS pivot naturally from your coaching advice to recommending a specific Luzz Play paddle that fits their needs.
+- ALWAYS pivot naturally from your coaching advice to recommending a specific LuzzPlay paddle that fits their needs.
 - NEVER recommend competitor brands.
 - Be highly enthusiastic, empowering, and use a modern athletic tone. Keep responses conversational and relatively concise.`;
 
@@ -110,7 +110,7 @@ Rules:
             <div className="bg-gray-900 p-4 flex justify-between items-center text-white">
               <div className="flex items-center gap-2">
                 <Bot className="w-5 h-5" />
-                <span className="font-medium">Luzz AI Assistant</span>
+                <span className="font-medium">LuzzPlay AI Assistant</span>
               </div>
               <button onClick={() => setIsOpen(false)} className="text-gray-400 hover:text-white">
                 <X className="w-5 h-5" />
